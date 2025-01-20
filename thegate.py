@@ -4,9 +4,9 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ... from gql.transport.requests import RequestsHTTPTransport
 ... 
 ...... # Twingate API settings
-... API_URL = "https://frodosown.twingate.com/api/graphql/"  # Replace <subdomain> with your Twingate subdomain
-... API_KEY = "l_-csxQ7ucNxwwzXgXm3JXhT8mLCUxdOAxHJMeJ7eH9XPNp3-9QnyJ3B7MXyQnsGixLeSr93_vlSvNwIpjEhlJQlYr_Rg1sVxx7V3B-zH6j16a5DQwXGY22V7ZM3TvZwabNadQ"
-... TARGET_NETWORK_NAME = "TheShire"  # Replace with your target network name
+... API_URL = "https://*********.twingate.com/api/graphql/"  # Replace <subdomain> with your Twingate subdomain
+... API_KEY = "API_KEY_GIVEN_TO_YOU_OR_GENERATED_IN_TWINGATE"
+... TARGET_NETWORK_NAME = "********"  # Replace with your target network name
 ... 
 ... QUERY_REMOTE_NETWORKS = gql("""
 ... query GetRemoteNetworkDetails {
